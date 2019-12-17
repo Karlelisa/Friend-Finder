@@ -1,0 +1,58 @@
+.jumbotron {
+    /* background-color: teal; */
+    background-image: url("./images/blue-gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    opacity: .75;
+    margin-top: 20px;
+    /* box-shadow: 0px 0px 5px 2px; */
+}
+
+
+.header-three {
+    font-weight: bold;
+}
+
+/* .hr-color {
+    border-bottom: 2px solid blue;
+} */
+
+
+.panel-body {
+    border: 2px solid white;
+}
+
+
+
+/* .form-control:after {
+    border: 3px solid blue;
+
+} */
+
+.form-control:hover {
+    border: 3px solid blue;
+
+}
+
+.form-control:focus {
+    outline: 0;
+}
+
+select {
+    /* border-bottom: 5px solid blue; */
+    border-radius: 25px;
+    padding: 3px;
+}
+
+select:focus {
+    outline: 0;
+}
+
+select:hover {
+    border-color: blue;
+}
+
+span {
+    color: blue;
+}

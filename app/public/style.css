@@ -1,0 +1,34 @@
+/* Home CSS */
+/* body {
+    background-color: rgb(23, 153, 153);
+} */
+
+/* 
+body {
+    background-image: url("./images/life-is-better-with-friends.jpg "), url("./images/life-is-better-with-friends.jpg");
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat; */
+/* background-size: cover, cover;   */
+/* margin-top: 300px; */
+/* } */
+
+
+body {
+    background-image: url("./images/group-of-friends2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 500%; */
+}
+
+h1,
+h2 {
+    font-weight: bolder;
+}
+
+.jumbotron {
+    /* background-color: teal; */
+    color: black;
+    opacity: .75;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 2px;
+}
