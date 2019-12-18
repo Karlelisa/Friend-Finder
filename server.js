@@ -15,6 +15,11 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
+// app.use(express.static(__dirname + '../public'));
+
+// Static directory to be served
+app.use(express.static("app/public"));
+
 // ================================================================================
 // ROUTER
 // The below points our server to a series of "route" files.

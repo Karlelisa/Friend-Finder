@@ -62,6 +62,38 @@ let friendsArray = [{
             4
         ]
     },
+    {
+        "name": "Kalya",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chris_Hemsworth_2013.jpg",
+        "scores": [
+            4,
+            4,
+            2,
+            3,
+            5,
+            1,
+            1,
+            2,
+            5,
+            4
+        ]
+    },
+    {
+        "name": "Jasmine",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chris_Hemsworth_2013.jpg",
+        "scores": [
+            2,
+            5,
+            5,
+            5,
+            3,
+            4,
+            1,
+            5,
+            2,
+            3
+        ]
+    },
 
 
 

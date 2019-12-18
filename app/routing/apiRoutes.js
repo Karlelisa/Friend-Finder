@@ -60,6 +60,8 @@ module.exports = function (app) {
         newFriend.scores[i] = parseInt(newFriend.scores[i]);
       }
     }
+
+    //Cited: https://teamtreehouse.com/community/total-difference-algo-javascript
     // compare the scores of newFriend with the scores of each friend in the database and find the friend with the smallest difference when each set of scores is compared
 
     let bestMatchIndex = 0;
