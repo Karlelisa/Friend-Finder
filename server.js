@@ -1,8 +1,8 @@
 // Dependencies
 // =============================================================
 let express = require("express");
-let path = require("path");
-require("dotenv").config()
+// let path = require("path");
+require("dotenv").config();
 
 // Sets up the Express App
 // =============================================================

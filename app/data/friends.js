@@ -1,6 +1,6 @@
 let friendsArray = [{
-        "name": "Karly",
-        "photo": "https://qph.fs.quoracdn.net/main-qimg-e1f7892d57d9b2cb2dc0af14e49e8468",
+        "name": "Rachel",
+        "photo": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/09/931/524/jennifer-aniston-friends-getty.jpg",
         "scores": [
             5,
             1,
@@ -15,8 +15,9 @@ let friendsArray = [{
         ]
     },
     {
-        "name": "Kyle",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Monica",
+        "photo": "https://sites.google.com/site/friends2365/_/rsrc/1472782816715/home/monica-geller/monica.jpg",
+
         "scores": [
             1,
             5,
@@ -31,8 +32,8 @@ let friendsArray = [{
         ]
     },
     {
-        "name": "Jessica",
-        "photo": "https://images.app.goo.gl/uhaDFadeuQs7XX4j7.jpg",
+        "name": "Phoebe",
+        "photo": "https://static01.nyt.com/images/2019/09/08/arts/08friends-phoebe6/08friends-phoebe6-jumbo.jpg",
         "scores": [
             5,
             3,
@@ -47,8 +48,8 @@ let friendsArray = [{
         ]
     },
     {
-        "name": "Chris",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chris_Hemsworth_2013.jpg",
+        "name": "Chandler",
+        "photo": "https://i.pinimg.com/originals/e6/01/e2/e601e2e6f7136069e5616bc1ba59b6e2.jpg",
         "scores": [
             3,
             4,
@@ -63,8 +64,8 @@ let friendsArray = [{
         ]
     },
     {
-        "name": "Kalya",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chris_Hemsworth_2013.jpg",
+        "name": "Ross",
+        "photo": "http://nowhitenoise.com/wp-content/uploads/2013/07/ross-geller.jpg",
         "scores": [
             4,
             4,
@@ -79,8 +80,8 @@ let friendsArray = [{
         ]
     },
     {
-        "name": "Jasmine",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chris_Hemsworth_2013.jpg",
+        "name": "Joey",
+        "photo": "https://66.media.tumblr.com/a21bcf8089058b9c95355e94f6e9860f/tumblr_peuo89xhMW1wiwetno7_250.png",
         "scores": [
             2,
             5,

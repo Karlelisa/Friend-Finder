@@ -1,3 +1,4 @@
+//Cited: HotRestaurant class ativity
 // ===============================================================================
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
@@ -33,16 +34,18 @@ module.exports = function (app) {
   // Then the server saves the data to the tableData array)
   // ---------------------------------------------------------------------------
 
-  app.post("/api/friends", function (req, res) {
-    // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
-    // It will do this by sending out the value "true" have a table
-    // req.body is available since we're using the body parsing middleware
-    if (friendsData.length < 5) {
-      friendsData.push(req.body);
-      res.json(true);
-    }
-  });
+  // app.post("/api/friends", function (req, res) {
+  // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
+  // It will do this by sending out the value "true" have a table
+  // req.body is available since we're using the body parsing middleware
+  //   if (friendsData.length < 5) {
+  //     friendsData.push(req.body);
+  //     res.json(true);
+  //   }
+  // });
 
+  //   Cited: Watch "Express Tutorial - Node.js Friend Finder" on YouTube
+  // https://youtu.be/kWu9stxD6m0  and the Hot Restaurant class activity
   // *** Updates an array of friends "database" array and sends back the json form of the most compatible new friend
   app.post('/api/friends', function (req, res) {
     // newFriend is the user that filled out the survey
@@ -68,11 +71,11 @@ module.exports = function (app) {
     //greatest score difference for a question is 4, therefore greatest difference is 4 times # of questions in survey
     let bestMatchDifference = 40;
 
-    for (let i = 0; i < friends.length; i++) {
+    for (let i = 0; i < friendsData.length; i++) {
       let totalDifference = 0;
 
-      for (let index = 0; index < friends[i].scores.length; index++) {
-        let differenceOneScore = Math.abs(friends[i].scores[index] - newFriend.scores[index]);
+      for (let index = 0; index < friendsData[i].scores.length; index++) {
+        let differenceOneScore = Math.abs(friendsData[i].scores[index] - newFriend.scores[index]);
         totalDifference += differenceOneScore;
       }
 
@@ -85,12 +88,14 @@ module.exports = function (app) {
     }
 
     // the best match index is used to get the best match data from the friends index
-    bestMatch = friends[bestMatchIndex];
+    bestMatch = friendsData[bestMatchIndex];
+
+    console.log(bestMatch);
 
     // Put new friend from survey in "database" array
-    friends.push(newFriend);
+    friendsData.push(newFriend);
 
-    // return the best match friend
+    // return best match friend
     res.json(bestMatch);
   });
 };

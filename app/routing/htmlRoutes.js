@@ -24,11 +24,11 @@ module.exports = function (app) {
 
     // CSS GET Requests
 
-    app.get("/style", function (req, res) {
-        res.sendFile(path.join(__dirname, "../public/style.css"));
-    });
+    // app.get("/style", function (req, res) {
+    //     res.sendFile(path.join(__dirname, "../public/style.css"));
+    // });
 
-    app.get("/surveyStyle", function (req, res) {
-        res.sendFile(path.join(__dirname, "../public/surveyStyle.css"));
-    });
+    // app.get("/surveyStyle", function (req, res) {
+    //     res.sendFile(path.join(__dirname, "../public/surveyStyle.css"));
+    // });
 };
