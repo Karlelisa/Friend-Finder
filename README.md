@@ -27,13 +27,20 @@ The survey has 10 questions, answers to the survey questions are on a scale of 1
 
 2. Then will compare the difference between the user's scores against other users' scores, question by question. Then will add up the differences to calculate the totalDifference.
 
-Example:
-User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-Total Difference: 2 + 1 + 2 = 5
+  * Example:
+  * User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+  * User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
+  * Total Difference: 2 + 1 + 2 = 5
 
 3. The person with the closest match will be the one with the "least" amount of difference.
 
 * Once the closest match has been determined, it will display the result back to the user in the form of a modal pop-up.
 
 * The result will display both the name and picture of the closest match.
+
+* Deploy App to Heroku for hosting.
+
+
+### Screenshot of my Friend Finder home page:
+
+![My Friend Finder home pagescreenshot](../app/public/images/MyHomePage.png)
