@@ -45,4 +45,4 @@ The survey has 10 questions, answers to the survey questions are on a scale of 1
 
 ### Screenshot of my Friend Finder home page:
 
-![My Friend Finder home pagescreenshot](/images/myHomePage.png)
+![My Friend Finder home page screenshot](/app/public/images/myHomePage.png)
