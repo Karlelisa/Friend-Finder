@@ -14,11 +14,13 @@ The survey has 10 questions, answers to the survey questions are on a scale of 1
 * The html-routes.js file should include two routes:
 
 1. A GET Route to /survey which displays the survey page.
+
 2. A USE route that leads to home.html which displays the home page.
 
 * The api-routes.js file includes two routes:
 
 1. A GET route with the url /api/friends. This will be used to display a JSON of all possible friends
+
 2. A POST route /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
 * Compatibility will be determined based on the following three ways:
@@ -27,10 +29,10 @@ The survey has 10 questions, answers to the survey questions are on a scale of 1
 
 2. Then will compare the difference between the user's scores against other users' scores, question by question. Then will add up the differences to calculate the totalDifference.
 
-  * Example:
-  * User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-  * User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-  * Total Difference: 2 + 1 + 2 = 5
+  Example:
+  User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+  User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
+  Total Difference: 2 + 1 + 2 = 5
 
 3. The person with the closest match will be the one with the "least" amount of difference.
 
@@ -43,4 +45,4 @@ The survey has 10 questions, answers to the survey questions are on a scale of 1
 
 ### Screenshot of my Friend Finder home page:
 
-![My Friend Finder home pagescreenshot](../app/public/images/MyHomePage.png)
+![My Friend Finder home pagescreenshot](/images/MyHomePage.png)
