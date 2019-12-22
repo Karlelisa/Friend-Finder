@@ -2,7 +2,6 @@ body {
     background-image: url("../images/group-of-friends2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 500%; */
 }
 
 h1,
@@ -14,12 +13,9 @@ h1 {
     font-size: 3rem;
     line-height: 3rem;
     font-family: lato;
-    /* font-weight: 900; */
-
 }
 
 .jumbotron {
-    /* background-color: teal; */
     color: black;
     opacity: .75;
     margin-top: 20px;
