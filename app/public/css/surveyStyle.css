@@ -1,33 +1,25 @@
 .jumbotron {
-    /* background-color: teal; */
     background-image: url("../images/blue-gradient.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
     opacity: .75;
     margin-top: 20px;
-    /* box-shadow: 0px 0px 5px 2px; */
 }
-
 
 h1 {
     font-size: 3rem;
     line-height: 3rem;
     font-family: lato;
     font-weight: 900;
-
 }
-
 
 .header-three {
     font-weight: bold;
-    /* font-size: 72px; */
     background: -webkit-linear-gradient(blue, teal);
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-
 }
 
 #about-u-header {
@@ -35,23 +27,12 @@ h1 {
     background: -webkit-linear-gradient(blue, teal);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-
-/* #question-header {
-    border: 2px solid blue;
-    background-color: blue;
-} */
 
 .center-header {
     text-align: center;
 
 }
-
-/* .hr-color {
-    border-bottom: 2px solid blue;
-} */
-
 
 .panel {
     border: 2px solid white;
@@ -59,12 +40,6 @@ h1 {
     padding: 7px;
 }
 
-
-
-/* .form-control:after {
-    border: 3px solid blue;
-
-} */
 
 .form-control:hover {
     border: 3px solid blue;
@@ -76,7 +51,7 @@ h1 {
 }
 
 select {
-    /* border-bottom: 5px solid blue; */
+
     border-radius: 25px;
     padding: 2px;
 
@@ -90,9 +65,6 @@ select:hover {
     border: 2px solid blue;
 }
 
-/* span {
-    color: blue;
-} */
 
 .modal-header {
     background-image: url("../images/blue-gradient.png");
