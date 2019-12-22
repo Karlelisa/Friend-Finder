@@ -34,21 +34,13 @@ module.exports = function (app) {
   // Then the server saves the data to the tableData array)
   // ---------------------------------------------------------------------------
 
-  // app.post("/api/friends", function (req, res) {
-  // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
-  // It will do this by sending out the value "true" have a table
-  // req.body is available since we're using the body parsing middleware
-  //   if (friendsData.length < 5) {
-  //     friendsData.push(req.body);
-  //     res.json(true);
-  //   }
-  // });
+
 
   //   Cited: Watch "Express Tutorial - Node.js Friend Finder" on YouTube
   // https://youtu.be/kWu9stxD6m0  and the Hot Restaurant class activity
-  // *** Updates an array of friends "database" array and sends back the json form of the most compatible new friend
+  // Function to update the array of friends "database" and sends back the json form of the most compatible new friend
   app.post('/api/friends', function (req, res) {
-    // newFriend is the user that filled out the survey
+
     let newFriend = req.body;
 
     // compute best match from scores
@@ -92,7 +84,7 @@ module.exports = function (app) {
 
     console.log(bestMatch);
 
-    // Put new friend from survey in "database" array
+    // Put the new friend from survey in "database" array
     friendsData.push(newFriend);
 
     // return best match friend

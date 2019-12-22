@@ -65,7 +65,7 @@ let friendsArray = [{
     },
     {
         "name": "Ross",
-        "photo": "http://nowhitenoise.com/wp-content/uploads/2013/07/ross-geller.jpg",
+        "photo": "https://www.thesun.co.uk/wp-content/uploads/2017/08/nintchdbpict000003441959.jpg",
         "scores": [
             4,
             4,
